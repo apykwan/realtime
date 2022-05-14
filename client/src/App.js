@@ -32,7 +32,7 @@ function App() {
 
     setTimeout(() => {
       if (socket.connected) setConnected(true);
-    }, 300);
+    }, 1000);
   };
 
   const handleUsernameClick = user => {
